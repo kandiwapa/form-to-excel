@@ -38,7 +38,7 @@ def enter_data(first_name_entry, last_name_entry, title_combobox, age_spinbox,
             print("--------------------------------------------")
 
 
-            filepath = "/home/kandiwapa/Workspaces/form-to-excel/data.xlsx"
+            filepath = "../form-to-excel/data.xlsx"
 
             if not os.path.exists(filepath):
                 workbook = openpyxl.Workbook()
