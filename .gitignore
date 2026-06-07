@@ -1,0 +1,9 @@
+# Ignore a specific file
+config.env
+
+# Ignore an entire folder
+node_modules/
+bin/
+
+# Ignore all files with a specific extension
+*.log
